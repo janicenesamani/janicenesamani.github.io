@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caryatid's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fdd835;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fdd835;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+        }
+        section {
+            padding: 2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #fdd835;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Caryatid</h1>
+        <p>Short Stories, Random Thoughts, and Musings</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#writing">Writing</a>
+        <a href="#art">Art</a>
+        <a href="#food">Food</a>
+        <a href="#life">Life</a>
+        <a href="#resume">Resume</a>
+        <a href="#portfolio">Portfolio</a>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I perceive myself as larger than life, wish and hope that someday I am reminded that I was one of the members of Greek, Roman, or even Egyptian royalty. Here, you will find tantalizing things to read and maybe a few opinions you don’t agree with. Welcome to my world!</p>
+        </div>
+    </section>
+    <section id="writing">
+        <div class="container">
+            <h2>Writing</h2>
+            <h3>Framed</h3>
+            <p>Suddenly the world seems clearer, outlines aren't blurred anymore, colors seem brighter. I have been framed!</p>
+            <h3>Still, born</h3>
+            <p>I read the lines she wrote, he wrote. Cryptic clues to her mind. Splotches of black and scarlet, things that made her laugh...</p>
+            <h3>One Night</h3>
+            <p>What do you do on a quiet, lonely night? You’re on your couch, you've smoked your second cigarette...</p>
+        </div>
+    </section>
+    <section id="art">
+        <div class="container">
+            <h2>Art</h2>
+            <p>Descriptions and images of my artwork coming soon!</p>
+        </div>
+    </section>
+    <section id="food">
+        <div class="container">
+            <h2>Food</h2>
+            <p>Recipes, reviews, and food blogs coming soon!</p>
+        </div>
+    </section>
+    <section id="life">
+        <div class="container">
+            <h2>Life</h2>
+            <p>General blog posts and life updates coming soon!</p>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Professional resume content coming soon!</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Descriptions and links to projects or work samples coming soon!</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Caryatid | <a href="mailto:your-email@example.com" style="color: #fff;">Contact Me</a></p>
+    </footer>
+</body>
+</html>
